@@ -14,7 +14,7 @@ box-sizing: border-box;
     justify-content: center;
 }
 .Calculator{
-    background: #3a4452;
+    background: #303741;
     padding: 20px;
     border-radius: 10px;
 }
@@ -24,10 +24,10 @@ box-sizing: border-box;
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: -8px -8px 15px rgba(53, 42, 42, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
     font-size: 20px;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     margin: 10px;
 }
@@ -44,7 +44,8 @@ form .display input{
 }
 form input.equal{
     width: 145px;
-    color: aqua;
+    color: rgb(243, 244, 244);
+    background: red;
 }
 form input.operator{
     color: aqua ;
